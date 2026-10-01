@@ -11,7 +11,6 @@ public class Destructor {
         System.gc();
     }
 
-    @Override
     protected void finalize() {
         System.out.println("The object is deleted");
     }
